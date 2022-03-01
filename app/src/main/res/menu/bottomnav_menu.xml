@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/exploreBtn"
+    android:title="Explorer"
+    android:orderInCategory="1"></item>
+    <item android:id="@+id/cartBtn"
+        android:title=""
+            android:icon="@drawable/ic_bag"
+        android:orderInCategory="2"></item>
+    <item android:id="@+id/favouritesBtn"
+        android:title=""
+        android:icon="@drawable/ic_heart_empty"
+        android:iconTint="@color/white"
+        android:orderInCategory="3"></item>
+    <item android:id="@+id/profileBtn"
+        android:title=""
+        android:icon="@drawable/ic_human"
+        android:orderInCategory="4"></item>
+</menu>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Ecommerce</string>
+    <string-array name="Brands">
+        <item>Apple</item>
+        <item>Samsung</item>
+        <item>Xiaomi</item>
+    </string-array>
+    <string-array name="Price">
+        <item>$0-$500</item>
+        <item>$500-$2000</item>
+        <item>$2000-$10000</item>
+    </string-array>
+    <string-array name="Size">
+        <item>5 to 5.5 inches</item>
+        <item>5.5 to 6 inches</item>
+        <item>6 to 6.5 inches</item>
+    </string-array>
+<string name="location">Zihuatanejo, Gro</string>
+    <string name="view">view all</string>
+    <string name="selCat">Select Category</string>
+    <string name="phonesCat">Phones</string>
+    <string name="compCat">Computer</string>
+    <string name="healthCat">Health</string>
+    <string name="booksCat">Books</string>
+    <string name="hotSales">Hot Sales</string>
+    <string name="seeMore">see more</string>
+    <string name="bestSel">Best Seller</string>
+    <string name="filtOpt">Filter Options</string>
+    <string name="filtBrand">Brand</string>
+    <string name="filtPrice">Price</string>
+    <string name="filtSize">Size</string>
+</resources>
