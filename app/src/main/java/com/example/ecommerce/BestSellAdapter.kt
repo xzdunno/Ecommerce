@@ -6,9 +6,8 @@ import android.view.LayoutInflater
 import android.graphics.Paint
 import com.squareup.picasso.Picasso
 import android.view.View
-import com.example.ecommerce.model.BestSeller
+import com.example.main_screen.data.model.BestSeller
 import android.view.ViewGroup
-import android.widget.CheckBox
 import kotlinx.android.synthetic.main.bestseller_row.view.*
 class BestSellAdapter(): RecyclerView.Adapter<CustomViewHolderBest>(){
 
@@ -25,17 +24,6 @@ class BestSellAdapter(): RecyclerView.Adapter<CustomViewHolderBest>(){
         return CustomViewHolderBest(view)
     }
     override fun onBindViewHolder(holder: CustomViewHolderBest, position: Int) {
-        /*holder.favCheck.setOnCheckedChangeListener(){it,isChecked->
-            if (isChecked) it.setButtonDrawable(R.drawable.ic_heart_empty)
-            else it.setButtonDrawable(R.drawable.ic_heart_full)
-        }*/
-/*holder.favCheck.setOnClickListener(){
-    it as CheckBox
-    if (!it.isChecked()){
-        it.setButtonDrawable(R.drawable.ic_heart_full)
-    }
-    else it.setButtonDrawable(R.drawable.ic_heart_empty)
-}*/
         holder.bind(listData?.get(position)!!)
     }
 }

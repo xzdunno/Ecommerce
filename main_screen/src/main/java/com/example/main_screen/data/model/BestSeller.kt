@@ -1,4 +1,4 @@
-package com.example.ecommerce.model
+package com.example.main_screen.data.model
 
 data class BestSeller(
     val id:Int,

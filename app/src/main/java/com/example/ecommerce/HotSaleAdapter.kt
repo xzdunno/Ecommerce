@@ -1,11 +1,10 @@
 package com.example.ecommerce
 
-import android.graphics.Paint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.ecommerce.model.HomeStore
+import com.example.main_screen.data.model.HomeStore
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.hotsales_row.view.*
 
@@ -29,11 +28,9 @@ class HotSaleAdapter (): RecyclerView.Adapter<CustomViewHolderHot>(){
 }
 class CustomViewHolderHot(var view: View): RecyclerView.ViewHolder(view){
     val img=view.hotImg
-    //val newBtn=view.newBtn
     val phone=view.phoneTxt
     val subTxt=view.subsTxt
     fun bind(hot: HomeStore){
-//if(!hot.is_buy) newBtn.visibility=View.GONE
 phone.text=hot.title
 subTxt.text=hot.subtitle
         Picasso.get().load(hot.picture).into(img)

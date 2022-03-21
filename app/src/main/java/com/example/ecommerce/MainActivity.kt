@@ -1,20 +1,14 @@
 package com.example.ecommerce
 
-import android.Manifest
-import android.app.Activity
-import android.graphics.Typeface
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.app.ActivityCompat
-import androidx.core.content.ContextCompat
 import android.os.Bundle
-import com.squareup.picasso.Picasso
 import dagger.hilt.android.AndroidEntryPoint
 import com.example.ecommerce.viewmodel.MainViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.ecommerce.databinding.ActivityMainBinding
 import androidx.lifecycle.Observer
-import com.example.ecommerce.model.BestSeller
-import com.example.ecommerce.model.Home
+import com.example.main_screen.data.model.BestSeller
+import com.example.main_screen.data.model.Home
 import retrofit2.Response
 import android.util.Log
 import android.widget.ArrayAdapter

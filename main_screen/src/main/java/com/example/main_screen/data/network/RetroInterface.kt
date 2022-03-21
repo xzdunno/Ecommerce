@@ -1,7 +1,6 @@
-package com.example.ecommerce.repository
+package com.example.main_screen.data.network
 
-import com.example.ecommerce.model.Home
-import retrofit2.Call
+import com.example.main_screen.data.model.Home
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Headers
