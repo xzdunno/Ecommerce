@@ -1,7 +1,7 @@
 package com.example.ecommerce.di
 
 import com.example.main_screen.data.network.RetroInterface
-import com.example.main_screen.domain.repository.Repository
+import com.example.product_details.data.network.DetailRetroInterface
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -12,19 +12,19 @@ import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-class MainModule {
+class DetailsModule {
     val BASE_URL="https://shopapi-0575.restdb.io/rest/"
     @Provides
     @Singleton
-    fun getRetroInterface(retrofit: Retrofit): RetroInterface {
-        return retrofit.create(RetroInterface::class.java)
+    fun getDetailRetroInt(retrofit: Retrofit): DetailRetroInterface {
+        return retrofit.create(DetailRetroInterface::class.java)
     }
-    @Provides
+   /* @Provides
     @Singleton
-    fun getNetworkInstance(): Retrofit {
+    fun getDetailInstance(): Retrofit {
         return Retrofit.Builder()
             .baseUrl(BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
-    }
+    }*/
 }

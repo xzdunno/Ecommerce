@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Ecommerce" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="HomeHeaders" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/darkBlue</item>
+        <item name="android:textSize">27sp</item>
+        <item name="fontFamily">@font/mark_pro_700</item>
+    </style>
+    <style name="SmallTextsRight" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textSize">15sp</item>
+        <item name="fontFamily">@font/mark_pro_400</item>
+    </style>
+    <style name="CategTexts" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/darkBlue</item>
+        <item name="android:textSize">13sp</item>
+        <item name="fontFamily">@font/mark_pro_500</item>
+    </style>
+    <style name="BottSheetText" parent="android:Widget.TextView">
+    <item name="android:textColor">@color/darkBlue</item>
+    <item name="android:textSize">20sp</item>
+    <item name="fontFamily">@font/mark_pro_500</item>
+</style>
+    <style name="filterText" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/darkBlue</item>
+        <item name="android:textSize">22sp</item>
+        <item name="fontFamily">@font/mark_pro_400</item>
+    </style>
+</resources>

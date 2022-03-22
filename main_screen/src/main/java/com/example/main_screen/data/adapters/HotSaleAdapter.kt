@@ -4,6 +4,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.main_screen.R
 import com.example.main_screen.data.model.HomeStore
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.hotsales_row.view.*

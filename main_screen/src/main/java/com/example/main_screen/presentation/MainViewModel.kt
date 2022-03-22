@@ -1,4 +1,4 @@
-package com.example.ecommerce.viewmodel
+package com.example.main_screen.presentation
 
 import androidx.lifecycle.ViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel

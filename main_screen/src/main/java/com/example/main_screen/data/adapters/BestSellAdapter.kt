@@ -8,6 +8,7 @@ import com.squareup.picasso.Picasso
 import android.view.View
 import com.example.main_screen.data.model.BestSeller
 import android.view.ViewGroup
+import com.example.main_screen.R
 import kotlinx.android.synthetic.main.bestseller_row.view.*
 class BestSellAdapter(): RecyclerView.Adapter<CustomViewHolderBest>(){
 

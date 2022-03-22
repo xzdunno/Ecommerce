@@ -1,3 +1,4 @@
 rootProject.name = "Ecommerce"
 include ':app'
 include ':main_screen'
+include ':product_details'
