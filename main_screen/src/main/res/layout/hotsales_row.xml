@@ -15,7 +15,7 @@
                 android:layout_height="wrap_content">
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="180dp"
+                    android:layout_height="match_parent"
                     android:id="@+id/hotImg"
                     android:layout_centerInParent="true"></ImageView>
                 <LinearLayout

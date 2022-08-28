@@ -1,7 +1,7 @@
 package com.example.product_details.data.model
 
 data class Detail(
-    val _id:String,
+    val id:Int,
     val CPU:String,
     val camera:String,
     val isFavorites:String,
@@ -10,7 +10,7 @@ data class Detail(
     val sd:String,
     val ssd:String,
     val title:String,
-    val images:String,
-    val color:String,
-    val capacity:String
+    val images:List<String>,
+    val color:List<String>,
+    val capacity:List<Int>
 )

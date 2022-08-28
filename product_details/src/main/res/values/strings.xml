@@ -29,4 +29,7 @@
     <string name="filtBrand">Brand</string>
     <string name="filtPrice">Price</string>
     <string name="filtSize">Size</string>
+    <string name="prodDet">Product Details</string>
+    <string name="selCol">Select color and capacity</string>
+    <string name="addCart">Add to Cart</string>
 </resources>
